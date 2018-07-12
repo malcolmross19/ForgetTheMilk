@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{00961CF7-23A9-4DBE-9AA0-21F9B2E7932F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ForgetTheMilk/Controllers/TaskController.cs">
+    <Files>
+      <File FileName="ForgetTheMilk/Controllers/TaskController.cs" Line="29" Column="1" />
+      <File FileName="ForgetTheMilk/Views/Task/Index.cshtml" Line="29" Column="92" />
+      <File FileName="ConsoleVerification/Program.cs" Line="16" Column="49" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ForgetTheMilk PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ConsoleVerification PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

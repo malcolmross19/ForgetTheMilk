@@ -1,0 +1,11 @@
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/bin/Debug/netcoreapp2.0/ForgetTheMilk.deps.json
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/bin/Debug/netcoreapp2.0/ForgetTheMilk.runtimeconfig.json
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/bin/Debug/netcoreapp2.0/ForgetTheMilk.runtimeconfig.dev.json
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/bin/Debug/netcoreapp2.0/ForgetTheMilk.dll
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/bin/Debug/netcoreapp2.0/ForgetTheMilk.pdb
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/obj/Debug/netcoreapp2.0/ForgetTheMilk.csprojResolveAssemblyReference.cache
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/obj/Debug/netcoreapp2.0/ForgetTheMilk.csproj.CoreCompileInputs.cache
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/obj/Debug/netcoreapp2.0/ForgetTheMilk.AssemblyInfoInputs.cache
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/obj/Debug/netcoreapp2.0/ForgetTheMilk.AssemblyInfo.cs
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/obj/Debug/netcoreapp2.0/ForgetTheMilk.dll
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilk/obj/Debug/netcoreapp2.0/ForgetTheMilk.pdb

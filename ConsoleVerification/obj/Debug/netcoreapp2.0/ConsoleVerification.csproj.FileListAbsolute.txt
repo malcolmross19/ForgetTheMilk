@@ -1,0 +1,13 @@
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/obj/Debug/netcoreapp2.0/ConsoleVerification.csprojResolveAssemblyReference.cache
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/obj/Debug/netcoreapp2.0/ConsoleVerification.csproj.CoreCompileInputs.cache
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/obj/Debug/netcoreapp2.0/ConsoleVerification.AssemblyInfoInputs.cache
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/obj/Debug/netcoreapp2.0/ConsoleVerification.AssemblyInfo.cs
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/ConsoleVerification.deps.json
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/ConsoleVerification.runtimeconfig.json
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/ConsoleVerification.runtimeconfig.dev.json
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/ConsoleVerification.dll
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/ConsoleVerification.pdb
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/ForgetTheMilk.dll
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/ForgetTheMilk.pdb
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/obj/Debug/netcoreapp2.0/ConsoleVerification.dll
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/obj/Debug/netcoreapp2.0/ConsoleVerification.pdb
