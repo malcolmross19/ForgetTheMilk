@@ -1,14 +1,17 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "a7aa306d2e264d92ffef06296341a5e29b6e41eb"
+    "signature": "8662898db9ab1ed22cb6368f983c222c594b5aba"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "ConsoleVerification/1.0.0": {
         "dependencies": {
-          "ForgetTheMilk": "1.0.0"
+          "ForgetTheMilk": "1.0.0",
+          "NUnit": "3.10.1",
+          "NUnit.Runners": "3.8.0",
+          "NUnit3TestAdapter": "3.8.0"
         },
         "runtime": {
           "ConsoleVerification.dll": {}
@@ -1249,6 +1252,21 @@
           "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         }
       },
+      "Microsoft.DotNet.InternalAbstractions/1.0.0": {
+        "dependencies": {
+          "System.AppContext": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll": {}
+        }
+      },
       "Microsoft.DotNet.PlatformAbstractions/2.0.0": {
         "dependencies": {
           "System.AppContext": "4.3.0",
@@ -1867,6 +1885,39 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "NUnit/3.10.1": {
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {}
+        }
+      },
+      "NUnit.ConsoleRunner/3.8.0": {},
+      "NUnit.Extension.NUnitProjectLoader/3.5.0": {},
+      "NUnit.Extension.NUnitV2Driver/3.6.0": {},
+      "NUnit.Extension.NUnitV2ResultWriter/3.5.0": {},
+      "NUnit.Extension.TeamCityEventListener/1.0.3": {},
+      "NUnit.Extension.VSProjectLoader/3.7.0": {},
+      "NUnit.Runners/3.8.0": {
+        "dependencies": {
+          "NUnit.ConsoleRunner": "3.8.0",
+          "NUnit.Extension.NUnitProjectLoader": "3.5.0",
+          "NUnit.Extension.NUnitV2Driver": "3.6.0",
+          "NUnit.Extension.NUnitV2ResultWriter": "3.5.0",
+          "NUnit.Extension.TeamCityEventListener": "1.0.3",
+          "NUnit.Extension.VSProjectLoader": "3.7.0"
+        }
+      },
+      "NUnit3TestAdapter/3.8.0": {
+        "dependencies": {
+          "Microsoft.DotNet.InternalAbstractions": "1.0.0",
+          "System.ComponentModel.EventBasedAsync": "4.3.0",
+          "System.ComponentModel.TypeConverter": "4.3.0",
+          "System.Diagnostics.Process": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Threading.Thread": "4.3.0",
+          "System.Xml.XPath.XmlDocument": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
       "Remotion.Linq/2.1.1": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -2184,6 +2235,14 @@
         }
       },
       "System.ComponentModel.Annotations/4.4.0": {},
+      "System.ComponentModel.EventBasedAsync/4.3.0": {
+        "dependencies": {
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
       "System.ComponentModel.Primitives/4.3.0": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
@@ -2265,6 +2324,44 @@
         "runtimeTargets": {
           "runtime/unix/lib/_._": {
             "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Diagnostics.Process/4.3.0": {
+        "dependencies": {
+          "Microsoft.Win32.Primitives": "4.3.0",
+          "Microsoft.Win32.Registry": "4.4.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Threading.Thread": "4.3.0",
+          "System.Threading.ThreadPool": "4.3.0",
+          "runtime.native.System": "4.3.0"
+        },
+        "runtimeTargets": {
+          "runtime/linux/lib/_._": {
+            "rid": "linux",
+            "assetType": "runtime"
+          },
+          "runtime/osx/lib/_._": {
+            "rid": "osx",
             "assetType": "runtime"
           },
           "runtime/win/lib/_._": {
@@ -3186,6 +3283,23 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
+      "System.Xml.XPath.XmlDocument/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Xml.ReaderWriter": "4.3.0",
+          "System.Xml.XPath": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
+        }
+      },
       "WindowsAzure.Storage/8.1.4": {
         "dependencies": {
           "Microsoft.Data.OData": "5.8.2",
@@ -3899,6 +4013,13 @@
       "path": "microsoft.data.sqlite.core/2.0.0",
       "hashPath": "microsoft.data.sqlite.core.2.0.0.nupkg.sha512"
     },
+    "Microsoft.DotNet.InternalAbstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AAguUq7YyKk3yDWPoWA8DrLZvURxB/LrDdTn1h5lmPeznkFUpfC3p459w5mQYQE0qpquf/CkSQZ0etiV5vRHFA==",
+      "path": "microsoft.dotnet.internalabstractions/1.0.0",
+      "hashPath": "microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512"
+    },
     "Microsoft.DotNet.PlatformAbstractions/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -4361,6 +4482,69 @@
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
     },
+    "NUnit/3.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E3ii6+VLdeIxTQ5gPjk/7g/xl+aCifbfcIkiGayZCuos+22FEdtKGrxMe6SzoXCQCcL7gdqhfNIFTaZ1+dS18g==",
+      "path": "nunit/3.10.1",
+      "hashPath": "nunit.3.10.1.nupkg.sha512"
+    },
+    "NUnit.ConsoleRunner/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CGgYNNMPmK7/BZ7g36g1GcS3heLN2Zl2aAm54dhOZAXZW3l+3S+imyZ3J9WA+SCiRyBC0PbmkCtb4dVkxoxytw==",
+      "path": "nunit.consolerunner/3.8.0",
+      "hashPath": "nunit.consolerunner.3.8.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitProjectLoader/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oe+PYd5uf0u3WoV6txz6esPe5I9I3PV0o96KoEVvJs+AYMG9MCebmnMq7N8dYJrWiDKIuSDwZ6WTs84XTDZ/Pw==",
+      "path": "nunit.extension.nunitprojectloader/3.5.0",
+      "hashPath": "nunit.extension.nunitprojectloader.3.5.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitV2Driver/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TZIWwZaND/91p9FCuZH0vJLNPVyFV4No6XHgtd2ZLwN6MQZVPWdI4apL38ejsKAFn3nF1yTlvJgYF1l2mlo8wA==",
+      "path": "nunit.extension.nunitv2driver/3.6.0",
+      "hashPath": "nunit.extension.nunitv2driver.3.6.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitV2ResultWriter/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qz5Xxd+yBStdMP/jIIFz01cN3x8rKBCoF3alFHa5Gr+lZqdFyV1DN+3l8AlHrDSX5OzAz+T5CCBkgDim/hqGkQ==",
+      "path": "nunit.extension.nunitv2resultwriter/3.5.0",
+      "hashPath": "nunit.extension.nunitv2resultwriter.3.5.0.nupkg.sha512"
+    },
+    "NUnit.Extension.TeamCityEventListener/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xl/ISHoJMbQHxpfa06KELaSU46V+KjofeZHAPmlb6ohw4HmmzRp+Hk7vkJPZtNyTrKZbqutefOSMKpnkgEl8tA==",
+      "path": "nunit.extension.teamcityeventlistener/1.0.3",
+      "hashPath": "nunit.extension.teamcityeventlistener.1.0.3.nupkg.sha512"
+    },
+    "NUnit.Extension.VSProjectLoader/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3xKLI7hnP5JWL1tauj2OaF7PFoGTNspryvk+894ZQsmEeRHDJwrfxc2sfWokFo2vZmlVCrCcVDl+9ALrhbhrYg==",
+      "path": "nunit.extension.vsprojectloader/3.7.0",
+      "hashPath": "nunit.extension.vsprojectloader.3.7.0.nupkg.sha512"
+    },
+    "NUnit.Runners/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wYWRGPB8aLZ0G7N9CJixUUYS8DQWEcJni4YC4myTGt8ARLcRWqIMlEDjGCOEPzXaDKenFv++/YT4cJnJE88Cmw==",
+      "path": "nunit.runners/3.8.0",
+      "hashPath": "nunit.runners.3.8.0.nupkg.sha512"
+    },
+    "NUnit3TestAdapter/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vVXeNljI7zdl1nZaKV9sm9o2FBuY2r9nDHsCIGRauUefm+PYbx/kbRGULq4EJltW3RdU9Gb+YiRnl+yofFoejg==",
+      "path": "nunit3testadapter/3.8.0",
+      "hashPath": "nunit3testadapter.3.8.0.nupkg.sha512"
+    },
     "Remotion.Linq/2.1.1": {
       "type": "package",
       "serviceable": true,
@@ -4627,6 +4811,13 @@
       "path": "system.componentmodel.annotations/4.4.0",
       "hashPath": "system.componentmodel.annotations.4.4.0.nupkg.sha512"
     },
+    "System.ComponentModel.EventBasedAsync/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fCFl8f0XdwA/BuoNrVBB5D0Y48/hv2J+w4xSDdXQitXZsR6UCSOrDVE7TCUraY802ENwcHUnUCv4En8CupDU1g==",
+      "path": "system.componentmodel.eventbasedasync/4.3.0",
+      "hashPath": "system.componentmodel.eventbasedasync.4.3.0.nupkg.sha512"
+    },
     "System.ComponentModel.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -4682,6 +4873,13 @@
       "sha512": "sha512-omCF64wzQ3Q2CeIqkD6lmmxeMZtGHUmzgFMPjfVaOsyqpR66p/JaZzManMw1s33osoAb5gqpncsjie67+yUPHQ==",
       "path": "system.diagnostics.fileversioninfo/4.3.0",
       "hashPath": "system.diagnostics.fileversioninfo.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Process/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J0wOX07+QASQblsfxmIMFc9Iq7KTXYL3zs2G/Xc704Ylv3NpuVdo6gij6V3PGiptTxqsK0K7CdXenRvKUnkA2g==",
+      "path": "system.diagnostics.process/4.3.0",
+      "hashPath": "system.diagnostics.process.4.3.0.nupkg.sha512"
     },
     "System.Diagnostics.StackTrace/4.3.0": {
       "type": "package",
@@ -5207,6 +5405,13 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XPath.XmlDocument/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
+      "path": "system.xml.xpath.xmldocument/4.3.0",
+      "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
     "WindowsAzure.Storage/8.1.4": {
       "type": "package",

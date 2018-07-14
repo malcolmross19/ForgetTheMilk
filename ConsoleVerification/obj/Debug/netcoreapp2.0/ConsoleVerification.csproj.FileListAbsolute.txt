@@ -11,3 +11,6 @@
 /Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/ForgetTheMilk.pdb
 /Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/obj/Debug/netcoreapp2.0/ConsoleVerification.dll
 /Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/obj/Debug/netcoreapp2.0/ConsoleVerification.pdb
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/NUnit3.TestAdapter.dll
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/nunit.engine.netstandard.dll
+/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ConsoleVerification/bin/Debug/netcoreapp2.0/Mono.Cecil.dll

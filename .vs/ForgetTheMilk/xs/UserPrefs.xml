@@ -1,10 +1,30 @@
 ﻿<Properties StartupConfiguration="{00961CF7-23A9-4DBE-9AA0-21F9B2E7932F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ForgetTheMilk/Controllers/TaskController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleVerification/TaskTest.cs">
     <Files>
-      <File FileName="ForgetTheMilk/Controllers/TaskController.cs" Line="29" Column="1" />
-      <File FileName="ForgetTheMilk/Views/Task/Index.cshtml" Line="29" Column="92" />
-      <File FileName="ConsoleVerification/Program.cs" Line="16" Column="49" />
+      <File FileName="ForgetTheMilk/Controllers/TaskController.cs" Line="45" Column="21" />
+      <File FileName="ConsoleVerification/Program.cs" Line="13" Column="1" />
+      <File FileName="ConsoleVerification/TaskTest.cs" Line="15" Column="48" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ForgetTheMilk" expanded="True">
+            <Node name="ConsoleVerification" expanded="True">
+              <Node name="Dependencies" expanded="True" selected="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ForgetTheMilk" expanded="True">
+            <Node name="ConsoleVerification" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
