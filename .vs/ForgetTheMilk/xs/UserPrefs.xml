@@ -1,37 +1,44 @@
-﻿<Properties StartupConfiguration="{00961CF7-23A9-4DBE-9AA0-21F9B2E7932F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleVerification/TaskTest.cs">
+﻿<Properties StartupConfiguration="{6DC030D8-6CDD-4308-87D2-9574CDFF95AE}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ForgetTheMilks/Controllers/LinkValidator.cs">
     <Files>
-      <File FileName="ForgetTheMilk/Controllers/TaskController.cs" Line="45" Column="21" />
-      <File FileName="ConsoleVerification/Program.cs" Line="13" Column="1" />
-      <File FileName="ConsoleVerification/TaskTest.cs" Line="15" Column="48" />
+      <File FileName="ForgetTheMilks.Tests/TaskLinkTests.cs" Line="24" Column="74" />
+      <File FileName="ForgetTheMilks/Controllers/TaskController.cs" Line="72" Column="1" />
+      <File FileName="ForgetTheMilks.Tests/Controllers/TaskControllerTest.cs" Line="15" Column="6" />
+      <File FileName="ForgetTheMilks/Controllers/LinkValidator.cs" Line="29" Column="1" />
     </Files>
     <Pads>
-      <Pad Id="ProjectPad">
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="ForgetTheMilk" expanded="True">
-            <Node name="ConsoleVerification" expanded="True">
-              <Node name="Dependencies" expanded="True" selected="True">
-                <Node name="PackageDependencies" expanded="True" />
+            <Node name="ForgetTheMilks.Tests" expanded="True" selected="True">
+              <Node name="ForgetTheMilks" expanded="True">
+                <Node name="Controllers" expanded="True">
+                  <Node name="CreateTaskTests" expanded="True">
+                    <Node name="DueDate" expanded="True" />
+                    <Node name="MayDueDateDoesWrapYear" expanded="True" />
+                    <Node name="Priority" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="LinkValidationTests" expanded="True" />
+                <Node name="TaskLinkTests" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="ForgetTheMilk" expanded="True">
-            <Node name="ConsoleVerification" selected="True" />
-          </Node>
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ForgetTheMilks.Tests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/malcolmross/Desktop/Software Developer Bootcamp/ForgetTheMilk/ForgetTheMilks/Controllers/TaskController.cs" relfile="ForgetTheMilks/Controllers/TaskController.cs" line="69" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ForgetTheMilk PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ForgetTheMilks PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ConsoleVerification PreferredExecutionTarget="MonoDevelop.Default" />
+  <DisabledProjects>
+    <String>ConsoleVerification/ConsoleVerification.csproj</String>
+  </DisabledProjects>
 </Properties>
